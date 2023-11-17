@@ -66,11 +66,11 @@ while True:
         display_contact(name)
 
     elif choice == '5':
-        name = input('Enter contact name to delete: ')
+        name = input('Enter contact name you want to delete: ')
         delete_contact(name)
 
     elif choice == '6':
-        print('Exiting Contact Book. Goodbye!')
+        print('Exiting Contact Book.')
         break
 
     else:
